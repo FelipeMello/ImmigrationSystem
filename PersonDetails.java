@@ -157,12 +157,12 @@ public class PersonDetails {
 							System.out
 							.println("What position would like ? The last position is : " + linkedList.size());
 							position = Integer.parseInt(br.readLine());
-
 							if (position <= linkedList.size()) {
 								hk = 3;
 								positionOk = true;
 								inputOk = true;
 							}
+							
 
 						} catch (IOException e) {
 							System.out.println("Pleaser enter a valid position \n" + "The position '" + position
@@ -393,10 +393,13 @@ public class PersonDetails {
 		enterName();
 		enterDate();
 		enterPassport();
-		enterChild();
-		enterPosition();
+		if(linkedList.size()>=1){
+			enterChild();
+			enterPosition();	
+		}	
 		addToTheList();
 	}
+	
 
 	// This method is called when the user needs to display the full list of
 	// people.
