@@ -4,7 +4,9 @@ package immigrationSystem;
 /* This method has the object of the program (Person) where contain the first name, last name, date of arrival
  passport number and a unique id that is generated automatically when the user adds a new person.
  For every variable in the method a get and set is created, on set, the information can be created
- on get, the information can be retrieved.   */
+ on get, the information can be retrieved.    
+ */
+
 public class E {
   private static int count = 0;
   private int id;

@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  * list by the ID and remove any number of people from the end of the list is
  * also available.
  * 
- * @author Felipe Mello 2015335
+ * @author Felipe Mello 
  * 
  * 
  * @version 4.0
